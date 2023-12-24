@@ -1,5 +1,5 @@
-<?php require_once './elements/headr.php';
-?>
+<?php require_once './function/get_ware.php'; ?>
+<?php require_once './elements/header.php'; ?>
 
     <!-- ================ contact section start ================= -->
     <section class="contact-section">
@@ -81,5 +81,4 @@
     </section>
     <!-- ================ contact section end ================= -->
 
-<?php require_once './elements/footer.php'; 
-?>
+<?php require_once './elements/footer.php'; ?>

@@ -1,5 +1,5 @@
-<?php require_once './elements/headr.php';
-?>
+<?php require_once './function/get_ware.php'; ?>
+<?php require_once './elements/header.php'; ?>
 
     <main>
         <!-- Start Youtube -->
@@ -189,5 +189,4 @@
         <!-- About US End -->
     </main>
     
-<?php require_once './elements/footer.php'; 
-?>
+<?php require_once './elements/footer.php'; ?>

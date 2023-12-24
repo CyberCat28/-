@@ -1,5 +1,5 @@
-<?php require_once './elements/headr.php';
-?>
+<?php require_once './function/get_ware.php'; ?>
+<?php require_once './elements/header.php'; ?>
 
 	<!-- Start Sample Area -->
 	<section class="sample-text-area">
@@ -652,5 +652,4 @@
 	</div>
 	<!-- End Align Area -->
 
-<?php require_once './elements/footer.php'; 
-?>
+<?php require_once './elements/footer.php'; ?>

@@ -1,6 +1,6 @@
-<?php require_once './elements/headr.php';
-?>
-    
+<?php require_once './function/get_ware.php'; ?>
+<?php require_once './elements/header.php'; ?>
+     
    <!--================Blog Area =================-->
    <section class="blog_area single-post-area section-padding">
       <div class="container">
@@ -211,5 +211,4 @@
    </section>
    <!--================ Blog Area end =================-->
 
-<?php require_once './elements/footer.php'; 
-?>
+<?php require_once './elements/footer.php'; ?>
