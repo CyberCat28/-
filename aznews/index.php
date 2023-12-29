@@ -1,7 +1,11 @@
 <?php require_once './function/get_ware.php'; ?>
 <?php require_once './elements/header.php'; ?>
-
     <main>
+        <?php foreach ($connect->query('SELECT * FROM posts;') as $row): ?>
+            <pre>
+                <?php var_dump($row); ?>
+            </pre>
+        <?php endforeach; ?>
     <!-- Trending Area Start -->
     <div class="trending-area fix">
         <div class="container">

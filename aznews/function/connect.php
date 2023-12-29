@@ -2,7 +2,6 @@
 
 require_once 'const.php';
 
-use PDO;
 
 function connect()
 {
